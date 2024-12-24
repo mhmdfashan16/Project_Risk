@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.9)), url('../Things/hero.png');
+    background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.9)), url('../Things/Asset/Background.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -27,4 +27,9 @@
 .btn img{
     width: 20px;
     margin-left: 10px;
+}
+.hero .hero_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
 }

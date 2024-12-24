@@ -6,6 +6,7 @@ const Hero = () => {
   return (
     <div className='hero container'>
         <div className="hero_text">
+        <h1 className='hero_title'>Welcome to Commerce World</h1>
             <h1>We Ensure Better Education for Better World</h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur amet obcaecati a deleniti asperiores earum eos, ad vitae commodi beatae dignissimos sint incidunt consequuntur ab. Dolore voluptatem repellat voluptatibus quae?

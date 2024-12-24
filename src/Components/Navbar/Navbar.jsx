@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Navbar.css'
 import logo from '../Things/logo.png'
+import Com_Logo from '../Things/Asset/Com_Logo.png'
 
 // import logo from './assets/logo.png';
 
@@ -16,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky? 'dark_nav':''}`}>
-      <img className='navbar_logo' src={logo}/>
+      <img className='navbar_logo' src={Com_Logo}/>
       
       {/* <ul className='navbar_menu'>
         <li><Link to='Hero' smooth={true} offset={0} duration={500}>Home</Link></li>
@@ -29,14 +30,14 @@ const Navbar = () => {
 
       
 
-      {/* <ul className='navbar_menu'>
+      <ul className='navbar_menu'>
         <li>Home</li>
         <li>Program</li>
         <li>About us</li>
         <li>Campus</li>
         <li>Testimonias</li>
         <li><button className='btn'>Contact us</button></li>
-      </ul> */}
+      </ul>
     </nav>
 
   )

@@ -6,6 +6,7 @@ import user_1 from '../Things/user-1.png'
 import user_2 from '../Things/user-2.png'
 import user_3 from '../Things/user-3.png'
 import user_4 from '../Things/user-4.png'
+import fshn from '../Things/Asset/fshn.jpg'
 
 const Testimonial = () => {
 
@@ -36,10 +37,10 @@ const Testimonial = () => {
                 <li>
                     <div className='slide'>
                         <div className="user_info">
-                            <img src={user_1} alt="" />
+                            <img src={fshn} alt="" />
                             <div>
-                                <h3>Williams Jackson</h3>
-                                <span>Edusity, USA</span>
+                                <h3>Mohammed Fashan</h3>
+                                <span>Commerce World, Mannar</span>
                             </div>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum doloremque aperiam sapiente quasi soluta illo voluptatibus numquam nostrum officiis ipsam nulla eius laboriosam quis impedit, excepturi nemo! Quisquam, est nihil.</p>

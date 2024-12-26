@@ -52,9 +52,9 @@ const Contact = () => {
             <form onSubmit={onSubmit}>
                 <label>Your Name</label>
                 <input type='text' name='name' placeholder='Enter Your Name' required/>
-                <lable>Phone Number</lable>
+                <label>Phone Number</label>
                 <input type='tel' name='phone' placeholder='Enter Your Phone Number' required/>
-                <lable>Write Your Message Here</lable>
+                <label>Write Your Message Here</label>
                 <textarea name='message' rows="10" placeholder='Enter Your Message Here' required></textarea>
                 <button type='submit' className='btn dark_btn'>Submit Now<img src={white_arrow}/></button>
             </form>

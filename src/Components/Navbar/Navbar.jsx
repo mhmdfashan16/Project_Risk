@@ -1,7 +1,14 @@
+import { Link } from 'react-scroll';
 import React, { useEffect, useState } from 'react';
 import './Navbar.css'
 import logo from '../Things/logo.png'
 import Com_Logo from '../Things/Asset/Com_Logo.png'
+
+// import { Link } from 'react-scroll';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
+
 
 // import logo from './assets/logo.png';
 
@@ -19,24 +26,13 @@ const Navbar = () => {
     <nav className={`container ${sticky? 'dark_nav':''}`}>
       <img className='navbar_logo' src={Com_Logo}/>
       
-      {/* <ul className='navbar_menu'>
-        <li><Link to='Hero' smooth={true} offset={0} duration={500}>Home</Link></li>
-        <li><Link to='Program' smooth={true} offset={0} duration={500}>Program</Link></li>
-        <li><Link to='About' smooth={true} offset={0} duration={500}>About us</Link></li>
-        <li><Link to='Campus' smooth={true} offset={0} duration={500}>Campus</Link></li>
-        <li><Link to='Testimonial' smooth={true} offset={0} duration={500}>Testimonias</Link></li>
-        <li><Link to='contact' smooth={true} offset={0} duration={500} className='btn'>Contact us</Link></li>
-      </ul> */}
-
-      
-
       <ul className='navbar_menu'>
-        <li>Home</li>
-        <li>Program</li>
-        <li>About us</li>
-        <li>Campus</li>
-        <li>Testimonias</li>
-        <li><button className='btn'>Contact us</button></li>
+        <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
+        <li><Link to='programs' smooth={true} offset={-260} duration={500}>Program</Link></li>
+        <li><Link to='about' smooth={true} offset={-190} duration={500}>About us</Link></li>
+        <li><Link to='campus' smooth={true} offset={-270} duration={500}>Campus</Link></li>
+        <li><Link to='testimonial' smooth={true} offset={-280} duration={500}>Testimonias</Link></li>
+        <li><Link to='contact' smooth={true} offset={-270} duration={500} className='btn'>Contact us</Link></li>
       </ul>
     </nav>
 

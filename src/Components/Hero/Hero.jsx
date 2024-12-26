@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='hero container'>
       <div className="hero_text">
         <h1 className='hero_title'>Welcome to Commerce World College</h1>
-        <h4>The Place where Accountant are Made</h4>
+        <h4>The Place where Accountants are Made</h4>
         <br />
         <h2>We Ensure Better Education for Better World</h2>
         <p>
